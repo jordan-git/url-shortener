@@ -17,6 +17,7 @@ main {
 
 #shorten-form #short-url {
     text-align: center;
+    margin: 15px 0;
 }
 
 #shorten-form .form-group {
