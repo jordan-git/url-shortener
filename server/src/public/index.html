@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script defer src="script.js"></script>
+        <title>URL Shortener</title>
+    </head>
+    <body>
+        <main>
+            <section id="shorten-form">
+                <form>
+                    <div class="form-group">
+                        <label for="url" class="required">URL</label>
+                        <input type="text" name="url" id="url" />
+                    </div>
+                    <div class="form-group">
+                        <label for="short">Shortened URL Path</label>
+                        <input type="text" name="short" id="short" />
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" id="shorten-btn">
+                            Shorten URL
+                        </button>
+                    </div>
+                </form>
+                <div id="short-url"></div>
+            </section>
+        </main>
+    </body>
+</html>

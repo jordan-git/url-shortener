@@ -1,0 +1,43 @@
+main {
+    min-height: 100vh;
+}
+
+#shorten-form {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#shorten-form form {
+    padding: 20px;
+    border: 4px solid #333;
+}
+
+#shorten-form #short-url {
+    text-align: center;
+}
+
+#shorten-form .form-group {
+    display: flex;
+}
+
+#shorten-form .form-group > * {
+    margin: 8px;
+    padding: 4px;
+    flex-basis: 0;
+    flex: 1 1 0px;
+}
+
+#shorten-form .form-group button,
+#shorten-form .form-group input {
+    border: 2px solid #333;
+    border-radius: 4px;
+}
+
+.required::after {
+    content: '*';
+    font-size: 0.8em;
+    color: red;
+}
